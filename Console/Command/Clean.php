@@ -2,15 +2,13 @@
 
 namespace Xigen\ImageCache\Console\Command;
 
-use Magento\Framework\App\Area;
-use Symfony\Component\Console\Command\Command;
 use Magento\Catalog\Model\Product\Image;
-use Symfony\Component\Console\Input\InputArgument;
-use Symfony\Component\Console\Input\InputOption;
-use Symfony\Component\Console\Input\InputInterface;
+use Magento\Framework\App\Area;
 use Magento\Framework\App\ObjectManager;
-use Symfony\Component\Console\Output\OutputInterface;
 use Magento\Framework\App\State;
+use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Class Clean
