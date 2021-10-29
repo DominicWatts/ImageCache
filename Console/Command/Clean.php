@@ -10,10 +10,6 @@ use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-/**
- * Class Clean
- * @package Xigen\ImageCache\Console\Command
- */
 class Clean extends Command
 {
     /**

@@ -19,6 +19,7 @@
     ],
     "require": {
         "magento/framework": "*",
+        "magento/module-catalog": "*",
         "php": ">=7.1.0"
     },
     "autoload": {
